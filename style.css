@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: white;
+}
+header {
+  background: #1a1a1a;
+  padding: 1em;
+  text-align: center;
+}
+nav a {
+  margin: 0 1em;
+  color: #00ffff;
+  text-decoration: none;
+}
+.hero {
+  padding: 2em;
+  text-align: center;
+  background: #202020;
+}
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+  padding: 1em;
+}
+.card {
+  background: #2a2a2a;
+  padding: 2em;
+  border-radius: 8px;
+  min-width: 120px;
+  text-align: center;
+}
+footer {
+  text-align: center;
+  padding: 1em;
+  background: #111;
+}
